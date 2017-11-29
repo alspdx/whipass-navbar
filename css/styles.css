@@ -8,4 +8,27 @@
   min-height: 300px;
   object-fit: cover;
   object-position: 50% 10%;
+  margin-bottom: 10px;
+}
+
+.card-img-left {
+  border-bottom-left-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);
+  float: left;
+  padding-right: 1em;
+  margin-bottom: -1.25em;
+}
+
+body {
+  background: #000;
+}
+
+.card {
+  border: none;
+  background: #000;
+  margin: 10px;
+}
+
+.card-body {
+    border-radius: 10px;
 }
